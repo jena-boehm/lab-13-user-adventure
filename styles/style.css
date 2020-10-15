@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: block;
+    line-height: 2em;
+    border: 1px black solid;
+    padding: 10px;
+}
