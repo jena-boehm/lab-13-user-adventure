@@ -1,5 +1,6 @@
 // import functions and grab DOM elements
-import { newUser, saveUser } from './utils.js';
+import { newUser } from './utils.js';
+import { saveUser, getUser } from '../data/user-data.js';
 
 const userName = document.querySelector('#name');
 const radios = document.querySelectorAll('label > input');
