@@ -10,7 +10,7 @@ export function createCompletedClass(hogwartsClass) {
 export function createClassLink(hogwartsClass) {
     const classLink = document.createElement('a');
     classLink.classList.add('class');
-    classLink.href = '../quest/?id=' + hogwartsClass.id;
+    classLink.href = '../hogwarts-class/?id=' + hogwartsClass.id;
 
     classLink.textContent = hogwartsClass.title;
     return classLink;
